@@ -448,12 +448,13 @@ hr {
     text-align: center;
 }
 
-.project-item {
+.project-item,
+.project-item img {
     display: flex;
     flex-direction: row;
     width: 300px;
     margin: 0.5rem !important;
-    border-radius: 8px;
+    border-bottom-right-radius: 25px !important;
     align-items: center;
     justify-content: center;
     background-color: #fff;
