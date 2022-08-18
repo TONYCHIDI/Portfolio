@@ -29,10 +29,12 @@
         <header id="nav-bar" class="navigation-bar">
             <nav class="navigation-menu">
                 <a href="/index.html"><img src="assets/my-logo.png" alt="Logo"></a>
-                <div class="menu-items">
-                    <ul>
+                <div id="ham-button" class="hamburger-button" onclick="hamburgerMenu()">
+                    <i id="ham-icon" class="fas fa-bars"></i>
+                </div>
+                <div id="right-nav" class="menu-items menu-overlay">
+                    <ul class="nav-links overlay-content">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#resume">Resume</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#expertise">Expertise</a></li>
                         <li><a href="#projects">Projects</a></li>
@@ -43,7 +45,8 @@
                     <a href="https://web.facebook.com/tonij.nnamchi"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://twitter.com/NnamchiC"><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://www.instagram.com/naccyworld/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/anthony-nnamchi-680663120/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/anthony-nnamchi-680663120/"><i
+                            class="fa-brands fa-linkedin"></i></a>
                 </div>
             </nav>
         </header>
@@ -596,12 +599,14 @@
 
             <section class="social-media" id="social-media">
                 <div class="social-container">
-                    <p>In coding I have found my passion. Feel free to peruse through my social media handles for your convinction</p>
+                    <p>In coding I have found my passion. Feel free to peruse through my social media handles for your
+                        convinction</p>
                     <div class="social-media-div">
                         <a href="https://web.facebook.com/tonij.nnamchi"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://twitter.com/NnamchiC"><i class="fa-brands fa-twitter"></i></a>
                         <a href="https://www.instagram.com/naccyworld/"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/anthony-nnamchi-680663120/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/anthony-nnamchi-680663120/"><i
+                                class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
             </section>
@@ -611,7 +616,9 @@
         <footer class="footer" id="footer">
             <div class="footer-container">
                 <div class="copyright">
-                    <p>&copy; NaccyWorld <script>document.write(new Date().getFullYear())</script></p>
+                    <p>&copy; NaccyWorld
+                        <script>document.write(new Date().getFullYear())</script>
+                    </p>
                 </div>
             </div>
         </footer>

@@ -1,30 +1,21 @@
-function windowScroll() {
-    const navbar = document.getElementById("nav-bar");
-    if (
-        document.body.scrollTop >= 50 ||
-        document.documentElement.scrollTop >= 50
-    ) {
-        navbar.classList.add("nav-sticky");
+function hamburgerMenu() {
+    // Toggle the side menu
+    let hamburgerMenu = document.querySelector(".menu-overlay");
+    let menuStyle = getComputedStyle(hamburgerMenu);
+
+    if (menuStyle.display == "none") {
+        document.getElementById("right-nav").style.display = "flex";
     } else {
-        navbar.classList.remove("nav-sticky");
+        document.getElementById("right-nav").style.display = "none";
     }
-};
 
-window.addEventListener('scroll', (ev) => {
-    ev.preventDefault();
-    windowScroll();
-});
-
-
-// function readMore() {
-let pen = document.getElementsByClassName(".service-para").style;
-    pen.color = "red";
-    // pen.style.display = "flex";
-    // pen.style.whiteSpace = "wrap";
-    // pen.style.textOverflow = "none";
-    // pen.style.maxWidth = "fit-content";
-// }
-
-// document.addEventListener("onclick", readMore())
-
-// console.log(pen);
+    // Exchange hamburger icon and close icon
+    let hamburgerIcon = document.querySelector("#ham-icon");
+    if (hamburgerIcon.classList.contains("fa-bars")) {
+        hamburgerIcon.classList.replace("fa-bars", "fa-times-circle");
+        return;
+    } else {
+        hamburgerIcon.classList.replace("fa-times-circle", "fa-bars");
+        return;
+    }
+}
