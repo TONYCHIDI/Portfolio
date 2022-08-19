@@ -409,6 +409,17 @@ hr {
     font: 700 normal 28px/1.5 "Italianno", sans-serif;
 }
 
+/* Bio-Data Section Tab */
+
+@media screen and (max-width: 1000px) {
+    .bio-data-div {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+}
+
 /* Bio-Data Section Tab/Mobile */
 
 @media screen and (max-width: 900px) {
