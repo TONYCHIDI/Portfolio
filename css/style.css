@@ -504,12 +504,12 @@ hr {
 }
 
 .service-items p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 27ch;
+    white-space: wrap;
+    width: 300px;
+    min-height: 185px;
     color: #8492a6;
     font: 400 normal 16px/1.5 "Nunito", sans-serif;
+    text-align: justify !important;
     margin-bottom: 1.5rem !important;
 }
 
