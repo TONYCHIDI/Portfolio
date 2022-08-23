@@ -505,8 +505,8 @@ hr {
 
 .service-items p {
     white-space: wrap;
-    width: 300px;
-    min-height: 185px;
+    width: 280px;
+    min-height: 220px;
     color: #8492a6;
     font: 400 normal 16px/1.5 "Nunito", sans-serif;
     text-align: justify !important;
