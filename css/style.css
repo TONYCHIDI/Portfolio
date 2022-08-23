@@ -82,14 +82,20 @@ a {
 }
 
 .menu-items ul li a:link,
-.menu-items ul li a:visited {
+.menu-items ul li a:visited,
+.project-item a:link,
+.project-item a:visited {
     color: #343a40;
 }
 
 .menu-items ul li a:link:hover,
 .menu-items ul li a:visited:hover,
 .menu-items ul li a:visited:focus,
-.menu-items ul li a:link:active {
+.menu-items ul li a:link:active,
+.project-item a:link:hover,
+.project-item a:visited:hover,
+.project-item a:visited:focus,
+.project-item a:link:active {
     color: #007bff !important;
 }
 
@@ -681,6 +687,7 @@ hr {
     justify-content: center;
     background-color: #fff;
     box-shadow: -0.0625rem 0 0.625rem 0 rgb(0 0 0 / 7%), 0.3125rem 1.25rem 2.5rem 0 rgb(0 0 0 / 4%);
+    font-weight: 600;
 }
 
 .project-item .items {
