@@ -680,7 +680,7 @@ hr {
 .project-item img {
     display: flex;
     flex-direction: row;
-    width: 330px;
+    width: 300px;
     margin: 0.6rem !important;
     border-bottom-right-radius: 25px !important;
     align-items: center;
