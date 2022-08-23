@@ -694,6 +694,10 @@ hr {
     width: 100%;
 }
 
+.project-item a {
+    padding: 15px;
+}
+
 /* Qualifications Section */
 
 .quali-container {
